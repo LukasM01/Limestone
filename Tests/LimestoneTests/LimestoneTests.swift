@@ -3,7 +3,8 @@ import XCTest
 
 class LimestoneTests: XCTestCase {
     func testExample() {
-        
+        let a = "test".foreground(.red)
+        XCTAssertEqual(a.text, "test")
     }
 
 
